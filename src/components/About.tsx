@@ -2,10 +2,29 @@
 
 const About = () => {
   return (
-    <section className="relative maxWidth h-[200px]">
+    <section className="relative">
+        <div className="absolute h-full max-h-[700px] w-full z-[-1]" id="bg" />
 
-        
 
+        <div className="pt-[90px] md:pt-[120px] lg:pt-[220px] pb-[50px]">
+            <h1 className="max-w-[938px] text-[32px] min-[400px]:text-[41px] md:text-6xl font-bold mx-auto text-center text-white">
+                Transforming Concepts into Seamless
+                <span className="text-[#cbacf9]"> User Experiences</span>
+            </h1>
+            <p className="text-center text-wText text-[16px] lg:text-[24px] mt-[30px]">Hi! My name is Vlad and i'm Front-End Developer based in Ukraine.</p>
+            <div className="mt-[40px] flex flex-col min-[400px]:flex-row gap-3 items-center justify-center">
+                <button className="block animate-shimmer items-center justify-center rounded-xl border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] py-3 px-7 font-medium text-[#cbacf9] transition-all focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 hover:text-wText hover:font-bold hover:scale-110">
+                    See my work
+                </button>
+                <a className="block animate-shimmer2 items-center justify-center rounded-xl border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] py-3 px-7 font-medium text-[#cbacf9] transition-all focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 hover:text-wText hover:font-bold hover:scale-110"
+                href="/cv.pdf" target="_blank" download={true}
+                >
+                    Download resume
+                </a>
+
+            </div>
+
+        </div>
     </section>
   )
 }

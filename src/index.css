@@ -18,3 +18,8 @@ body {
     color: #E4ECFF;
 }
 
+#bg {
+    background-image: url(assets/gridBg2.svg);
+    background-position: center;
+    background-size: cover;
+}
