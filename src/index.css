@@ -33,10 +33,11 @@ body {
 
 .customBg.bottomBg{
     position: absolute;
+    bottom: -50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 800px;
+    height: 100%;
     z-index: -1;
     width: 100%;
-    max-width: 850px;
+    max-width: 1000px;
 }

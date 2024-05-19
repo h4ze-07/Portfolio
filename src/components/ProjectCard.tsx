@@ -55,7 +55,6 @@ const ProjectCard = ({title, img, desciption, codeLink, siteLink}: ProjectCardTy
                         Check Live Site
                     </CardItem>
                 </div>
-
             </CardBody>
         </CardContainer>
     </div>

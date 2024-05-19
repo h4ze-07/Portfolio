@@ -3,7 +3,7 @@ import { footerLinks } from "../constants"
 
 const Footer = () => {
   return (
-    <footer className="maxWidth flex flex-col-reverse gap-6 min-[500px]:flex-row justify-between items-center px-20 my-[80px] max-w-[1050px]">
+    <footer className="maxWidth flex flex-col-reverse gap-6 min-[500px]:flex-row justify-between items-center px-20 mt-[50px] md:mt-[80px] mb-[30px] max-w-[1050px]">
       <p className="font-light">Copyright ©2024</p>
 
       <div className="flex gap-4">

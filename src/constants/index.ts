@@ -36,7 +36,7 @@ export const projectsInfo = [
     },
     {
         id: 4,
-        title: 'HiLink. Travel',
+        title: 'HiLink. Travel Camp',
         description: 'We can help you on an adventure around the world in just one app',
         img: hilink,
         codeLink: 'https://github.com/h4ze-07/travelcampapp',
