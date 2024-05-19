@@ -9,8 +9,15 @@
     .maxWidth {
         @apply max-w-[1280px] px-[10px] mx-auto;
     }
+
+    .navIcon {
+        @apply h-8 w-8 w-full h-full;
+    } 
 }
 
+* {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: "Montserrat", sans-serif;
@@ -18,8 +25,16 @@ body {
     color: #E4ECFF;
 }
 
-#bg {
+.customBg {
     background-image: url(assets/gridBg2.svg);
     background-position: center;
     background-size: cover;
+}
+
+.customBg.bottomBg{
+    position: relative;
+    bottom: -200px;
+    height: 400px;
+    z-index: -1;
+    width: 100%;
 }

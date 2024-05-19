@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard"
 
 const Projects = () => {
   return (
-    <section className="maxWidth mt-[60px]">
+    <section className="maxWidth mt-[60px]" id="projects">
 
       <h2 className="max-w-[938px] text-[16px] min-[400px]:text-[26px] md:text-[40px] font-bold mx-auto text-center text-white">
         A small selection of <span className="text-[#cbacf9]"> recent projects</span>

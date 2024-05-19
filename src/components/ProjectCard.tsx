@@ -39,7 +39,7 @@ const ProjectCard = ({title, img, desciption, codeLink, siteLink}: ProjectCardTy
                     <CardItem
                         as='a'
                         translateZ='70'
-                        className="text-[20px] text-[#CBACF9] hover:font-semibold hover:underline underline-offset-4 transition-all"
+                        className="text-[20px] text-[#CBACF9] hover:font-semibold hover:underline underline-offset-4 transition-all text-center"
                         href={codeLink}
                         target='_blank'
                     >
@@ -48,7 +48,7 @@ const ProjectCard = ({title, img, desciption, codeLink, siteLink}: ProjectCardTy
                     <CardItem
                         as='a'
                         translateZ='70'
-                        className="text-[20px] text-[#CBACF9] hover:font-semibold hover:underline underline-offset-4 transition-all"
+                        className="text-[20px] text-[#CBACF9] hover:font-semibold hover:underline underline-offset-4 transition-all text-center"
                         href={siteLink}
                         target='_blank'
                     >

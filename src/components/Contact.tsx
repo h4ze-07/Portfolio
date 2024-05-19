@@ -2,7 +2,7 @@
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <section id="contact" className="maxWidth" >Contact</section>
   )
 }
 
