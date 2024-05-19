@@ -14,6 +14,7 @@ export default {
         spotlight: "spotlight 2s ease .75s 1 forwards",
         shimmer: "shimmer 3s linear infinite",
         shimmer2: "shimmer2 2.5s linear infinite",
+        bouncingLight: "bouncingLight 2.5s linear infinite",
       },
       keyframes: {
         spotlight: {
@@ -41,6 +42,23 @@ export default {
             to: {
               "backgroundPosition": "0 0"
             }
+        },
+        bouncingLight: {
+          '0%': {
+            opacity: '100%'
+          },
+          '25%': {
+            opacity: '60%'
+          },
+          '50%': {
+            opacity: '30%'
+          },
+          '75%': {
+            opacity: '60%'
+          },
+          '100%': {
+            opacity: '100%'
+          },
         }
       },
     },

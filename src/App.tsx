@@ -7,14 +7,14 @@ import Projects from "./components/Projects"
 function App() {
 
   return (
-    <>
+    <div className="relative overflow-hidden">
       <NavBar />
       <About />
       <Projects />
       <Contact />
       <div className="customBg bottomBg" />
       <Footer />
-    </>
+    </div>
   )
 }
 
