@@ -1,9 +1,14 @@
+import { Spotlight } from "./ui/Spotlight"
 
 
 const About = () => {
   return (
     <section className="relative" id="about">
         <article className="absolute h-full w-full z-[-1] customBg"/>
+
+        <Spotlight className="left-20" />
+        <Spotlight className="hidden md:block left-[20%] top-10" fill="#aba5f8" />
+        <Spotlight className="left-[80%] -top-50" fill="#cbacf9" />
 
 
         <div className="pt-[90px] md:pt-[120px] lg:pt-[220px] pb-[50px]">

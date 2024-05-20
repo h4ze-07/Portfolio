@@ -7,7 +7,7 @@ import Projects from "./components/Projects"
 function App() {
 
   return (
-    <div>
+    <main>
       <NavBar />
       <About />
       <Projects />
@@ -16,7 +16,7 @@ function App() {
         <Contact />
         <Footer />
       </div>
-    </div>
+    </main>
   )
 }
 

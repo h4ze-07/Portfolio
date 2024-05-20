@@ -8,6 +8,13 @@ import metaverse from '../assets/metaverse.jpg';
 import hilink from '../assets/hilink.jpg';
 
 
+export const gridItems = [
+    {
+        id: 1,
+        
+    }
+];
+
 
 export const projectsInfo = [
     {
