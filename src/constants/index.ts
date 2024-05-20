@@ -1,3 +1,8 @@
+import laptop from '../assets/laptop.jpg';
+import globe from '../assets/globe.png';
+import codeWindow from '../../src/assets/codeWindow.png';
+import code from '../../src/assets/code.png';
+
 import Git from '../assets/github.png';
 import In from '../assets/in.png';
 import Tg from '../assets/tg.png';
@@ -11,8 +16,44 @@ import hilink from '../assets/hilink.jpg';
 export const gridItems = [
     {
         id: 1,
-        
-    }
+        title: 'I prioritize client collaboration and encourage open communication',
+        subtitle: '',
+        className: 'lg:col-span-3 md:col-span-6 md:row-span-4',
+        img: laptop,
+    },
+    {
+        id: 2,
+        title: "I'm highly responsible, self-motivated and have excelent time management skills",
+        subtitle: '',
+        className: 'lg:col-span-2 md:col-span-3 md:row-span-2',
+        img: globe,
+    },
+    {
+        id: 3,
+        title: 'My tech stack',
+        subtitle: 'I constantly try to improve',
+        className: 'lg:col-span-2 md:col-span-3 md:row-span-2',
+    },
+    {
+        id: 4,
+        title: 'Junior developer with a passion for coding',
+        subtitle: '',
+        className: 'lg:col-span-2 md:col-span-3 md:row-span-1',
+        img: codeWindow,
+    },
+    {
+        id: 5,
+        title: 'Currently learning NextJs and NodeJs',
+        subtitle: '',
+        className: 'md:col-span-3 md:row-span-2',
+        img: code,
+    },
+    {
+        id: 6,
+        title: 'I would like to build a project together',
+        subtitle: '',
+        className: 'lg:col-span-2 md:col-span-3 md:row-span-1',
+    },
 ];
 
 

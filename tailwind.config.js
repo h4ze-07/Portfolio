@@ -10,6 +10,9 @@ export default {
         'pBlack': '#000319',
         'wText': '#E4ECFF',
       },
+      screens: {
+        'sm2': '550px',
+      },
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
         shimmer: "shimmer 3s linear infinite",

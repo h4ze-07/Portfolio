@@ -2,7 +2,7 @@ const contactURL = 'https://www.linkedin.com/in/vlad-bondarenko-1034b3287/';
 
 const Contact = () => {
   return (
-    <section id="contact" className="maxWidth mt-[60px] md:mt-[120px] text-center">
+    <section id="contact" className="maxWidth mt-[60px] md:mt-[150px] text-center">
 
       <h3 className="max-w-[720px] text-white font-bold text-[32px] md:text-[46px] mb-[16px] md:mb-[24px] text-center mx-auto">Ready to take <span className="text-[#CBACF9]">your</span> digital presence to <span className="text-[#CBACF9]">new heights</span>?</h3>
       <p className=" text-[#C1C2D3]">Reach out today, and let's chat about how I can help you succeed</p>

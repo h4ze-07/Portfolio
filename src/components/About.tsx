@@ -1,13 +1,14 @@
+import GridSection from "./GridSection"
 import { Spotlight } from "./ui/Spotlight"
 
 
 const About = () => {
   return (
-    <section className="relative" id="about">
-        <article className="absolute h-full w-full z-[-1] customBg"/>
+    <section className="relative overflow-hidden" id="about">
+        <article className="absolute h-[60%] w-full z-[-1] customBg"/>
 
-        <Spotlight className="left-20" />
-        <Spotlight className="hidden md:block left-[20%] top-10" fill="#aba5f8" />
+        <Spotlight className="left-20 h-[80vh]" />
+        <Spotlight className="hidden md:block left-[25%] h-[50vh] top-52" fill="#aba5f8" />
         <Spotlight className="left-[80%] -top-50" fill="#cbacf9" />
 
 
@@ -28,9 +29,9 @@ const About = () => {
                 >
                     Download resume
                 </a>
-
             </div>
 
+            <GridSection />
         </div>
     </section>
   )

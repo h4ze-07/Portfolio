@@ -16,7 +16,7 @@ const ProjectCard = ({title, img, desciption, codeLink, siteLink}: ProjectCardTy
             <CardBody className="h-fit w-fit">
 
                 <CardItem as='a' translateZ="70" className="block w-full mt-5 px-2" href={siteLink} target='_blank'>
-                    <div className="rounded-2xl overflow-hidden border border-slate-500 h-[250px]">
+                    <div className="rounded-2xl overflow-hidden border border-slate-700 h-[250px]">
                         <img src={img} alt={title} className="w-full h-full object-cover" />
                     </div>
                 </CardItem>
@@ -41,7 +41,7 @@ const ProjectCard = ({title, img, desciption, codeLink, siteLink}: ProjectCardTy
                     <CardItem
                         as='a'
                         translateZ='70'
-                        className="text-[20px] text-[#CBACF9] hover:font-semibold hover:underline underline-offset-4 transition-all text-center"
+                        className="text-[16px] text-[#CBACF9] hover:font-semibold hover:underline underline-offset-4 transition-all text-center"
                         href={codeLink}
                         target='_blank'
                     >
@@ -50,7 +50,7 @@ const ProjectCard = ({title, img, desciption, codeLink, siteLink}: ProjectCardTy
                     <CardItem
                         as='a'
                         translateZ='70'
-                        className="text-[20px] text-[#CBACF9] hover:font-semibold hover:underline underline-offset-4 transition-all text-center"
+                        className="text-[16px] text-[#CBACF9] hover:font-semibold hover:underline underline-offset-4 transition-all text-center"
                         href={siteLink}
                         target='_blank'
                     >
