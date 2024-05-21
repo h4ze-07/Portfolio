@@ -1,4 +1,6 @@
 import { useState } from "react";
+import {motion} from 'framer-motion';
+import { transitionV, variant } from "../../constants/variants";
 
 type GridItemProps = {
     id: number,
@@ -6,9 +8,10 @@ type GridItemProps = {
     subtitle?: string,
     className: string,
     img?: string,
+    animate: string,
 }
 
-export const CustomGridItem = ({id, title, subtitle, className, img}: GridItemProps) => {
+export const CustomGridItem = ({id, title, subtitle, className, img, animate}: GridItemProps) => {
 
     const [copyBtn, setCopyBtn] = useState(true);
     const email = 'vlad0109031@gmail.com';
@@ -20,8 +23,12 @@ export const CustomGridItem = ({id, title, subtitle, className, img}: GridItemPr
     }
 
     return (
-        <div className={`${className} border border-slate-600 rounded-[23px] relative overflow-hidden row-span-1 `}
-    
+        <motion.div className={`${className} border border-slate-600 rounded-[23px] relative overflow-hidden row-span-1 `}
+            variants={variant(animate)}
+            initial='initial'
+            whileInView='inView'
+            viewport={{once: false}}
+            transition={transitionV(0.20 * id, 0.7, 'easeInOut')}
         >
             {id == 1 && (
                 <div>
@@ -111,6 +118,6 @@ export const CustomGridItem = ({id, title, subtitle, className, img}: GridItemPr
                     </div>
                 </div>
             )}
-        </div>
+        </motion.div>
     )
 }

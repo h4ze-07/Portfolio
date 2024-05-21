@@ -1,6 +1,9 @@
-import { CardBody, CardContainer, CardItem } from "./ui/3d-card"
+import { transitionV, variant } from "../constants/variants";
+import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
+import {motion} from 'framer-motion';
 
 type ProjectCardTypes = {
+    id: number,
     title: string,
     img: string,
     desciption: string,
@@ -9,9 +12,15 @@ type ProjectCardTypes = {
 }
 
 
-const ProjectCard = ({title, img, desciption, codeLink, siteLink}: ProjectCardTypes) => {
+const ProjectCard = ({title, img, desciption, codeLink, siteLink, id}: ProjectCardTypes) => {
   return (
-    <div>
+    <motion.div
+        variants={variant('left')}
+        initial='initial'
+        whileInView='inView'
+        viewport={{once: false}}
+        transition={transitionV(0.25 * id, 0.6)}
+    >
         <CardContainer className="border border-slate-800 rounded-xl px-3 py-2 max-w-[350px] md:max-w-full w-[90%] bg-white/10">
             <CardBody className="h-fit w-fit">
 
@@ -59,7 +68,7 @@ const ProjectCard = ({title, img, desciption, codeLink, siteLink}: ProjectCardTy
                 </div>
             </CardBody>
         </CardContainer>
-    </div>
+    </motion.div>
   )
 }
 

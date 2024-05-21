@@ -20,6 +20,7 @@ export const gridItems = [
         subtitle: '',
         className: 'lg:col-span-3 md:col-span-6 md:row-span-4',
         img: laptop,
+        animate: 'left',
     },
     {
         id: 2,
@@ -27,12 +28,14 @@ export const gridItems = [
         subtitle: '',
         className: 'lg:col-span-2 md:col-span-3 md:row-span-2',
         img: globe,
+        animate: 'right',
     },
     {
         id: 3,
         title: 'My tech stack',
         subtitle: 'I constantly try to improve',
         className: 'lg:col-span-2 md:col-span-3 md:row-span-2',
+        animate: 'right',
     },
     {
         id: 4,
@@ -40,6 +43,7 @@ export const gridItems = [
         subtitle: '',
         className: 'lg:col-span-2 md:col-span-3 md:row-span-1',
         img: codeWindow,
+        animate: 'left',
     },
     {
         id: 5,
@@ -47,12 +51,14 @@ export const gridItems = [
         subtitle: '',
         className: 'md:col-span-3 md:row-span-2',
         img: code,
+        animate: 'right',
     },
     {
         id: 6,
         title: 'I would like to build a project together',
         subtitle: '',
         className: 'lg:col-span-2 md:col-span-3 md:row-span-1',
+        animate: 'left',
     },
 ];
 
