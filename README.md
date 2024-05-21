@@ -1,4 +1,4 @@
-Link to live site: 
+Link to live site: <a href="https://hazeportfolio.netlify.app/">Click</a>
 
 
 # React + TypeScript + Vite
