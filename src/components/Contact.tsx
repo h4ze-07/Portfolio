@@ -1,4 +1,4 @@
-const contactURL = 'https://www.linkedin.com/in/vlad-bondarenko-1034b3287/';
+const contactURL = 'https://www.linkedin.com/in/haze07/';
 
 const Contact = () => {
   return (

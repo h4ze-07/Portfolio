@@ -96,12 +96,12 @@ export const projectsInfo = [
 export const footerLinks = [
     {
         title: 'github',
-        link: 'https://www.linkedin.com/in/vlad-bondarenko-1034b3287/',
+        link: 'https://github.com/h4ze-07',
         img: Git,
     },
     {
         title: 'in',
-        link: 'https://github.com/h4ze-07',
+        link: 'https://www.linkedin.com/in/haze07/',
         img: In,
     },
     {
@@ -110,3 +110,5 @@ export const footerLinks = [
         img: Tg,
     },
 ]
+
+
