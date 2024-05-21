@@ -100,12 +100,12 @@ export const CustomGridItem = ({id, title, subtitle, className, img, animate}: G
                 </div>
             )}
             {id == 6 && (
-                <div className=""
+                <div className="overflow-hidden"
                 style={{
                     'background': 'linear-gradient(90deg, rgba(82,58,131,0.4) 35%, rgba(41,44,162,0.3) 69%)'
                 }}
                 >
-                    <div className="backdrop-blur-md bg-white/10 flex flex-col items-center gap-3 py-6">
+                    <div className="backdrop-blur-md bg-white/10 flex flex-col items-center gap-3 py-6 overflow-hidden">
                         <h3 className="text-[18px] text-center md:text-[24px] font-bold max-w-[260px] ">{title}</h3>
                         <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
                         onClick={handleCopyBtnClick}
