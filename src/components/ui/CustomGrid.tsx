@@ -59,7 +59,7 @@ export const CustomGridItem = ({id, title, subtitle, className, img, animate}: G
 
                     <div className="flex gap-1 lg:gap-2 w-fit absolute top-0 -right-3 lg:-right-2">
                         <div className="flex flex-col gap-3 relative top-1">
-                            {["ReactJS", "Tailwind", "NextJs"].map((i => (
+                            {["JavaScript", "Tailwind", "ReactJS"].map((i => (
                                 <span 
                                     key={i}
                                     className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
@@ -70,7 +70,7 @@ export const CustomGridItem = ({id, title, subtitle, className, img, animate}: G
                         </div>
                         <div className="flex flex-col gap-3 relative -top-3">
                             <span className="lg:py-4 lg:px-3 py-4 px-3 rounded-lg text-center bg-[#10132E] opacity-50 lg:opacity-100"></span>
-                            {["Typescript", "NodeJs", "Python"].map((i => (
+                            {["Typescript", "NextJs", "SCSS"].map((i => (
                                 <span 
                                     key={i}
                                     className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
