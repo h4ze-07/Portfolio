@@ -27,8 +27,8 @@ export const CustomGridItem = ({id, title, subtitle, className, img, animate}: G
             variants={variant(animate)}
             initial='initial'
             whileInView='inView'
-            viewport={{once: false}}
-            transition={transitionV(0.20 * id, 0.7, 'easeInOut')}
+            viewport={{once: true}}
+            transition={transitionV(0.10 * id, 0.5, 'easeInOut')}
         >
             {id == 1 && (
                 <div>
